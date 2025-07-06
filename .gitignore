@@ -1,0 +1,42 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+/frontend
+
+# OS and editor cruft
+.DS_Store
+.vscode/
+.idea/
+.git-backup/
+
+# Node modules and lock files (you can keep lock if needed)
+node_modules/
+
+# Build and generated files
+build/
+dist/
+generated/
+artifacts/
+cache/
+coverage/
+typechain/
+.env
+.env.local
+
+# Hardhat/OpenZeppelin outputs
+.openzeppelin/

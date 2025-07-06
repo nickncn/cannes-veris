@@ -1,0 +1,30 @@
+{
+    "propertyName": "Victoria Peak Ultra Penthouse",
+    "propertyLocation": "Mount Austin Road, The Peak, Hong Kong",
+    "description": "The highest penthouse in Hong Kong with breathtaking panoramic views, private elevator, infinity pool and 24/7 security.",
+    "features": [
+        "Skyline View",
+        "Private Pool",
+        "Helipad Access",
+        "Home Cinema",
+        "Smart Home"
+    ],
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "squareFootage": 550,
+    "totalShares": 200,
+    "pricePerShare": 1,
+    "currency": "USDC",
+    "ownersCount": 2,
+    "legalDocsUrl": "https://www.notion.so/Victoria-Peak-Ultra-Penthouse-Legal-Disclosure-22084642a04980e19fd0c264eddd07a4?source=copy_link",
+    "auditUrl": "https://www.notion.so/Audit-Report-Victoria-Peak-Ultra-Penthouse-22084642a04980d5a159d9a3fdfd0cc8?source=copy_link",
+    "ownerName": "Peak Assets Ltd.",
+    "ownerWallet": "0xcE6d03F1bD5D6c1AD5CB1CA8F5000db6496e336A",
+    "managerName": "HK Elite Management",
+    "managerContact": "manager@hkelitemgmt.com",
+    "jurisdiction": "Hong Kong",
+    "issuer": "Peak Holdings Ltd",
+    "auditTimestamp": "2024-07-05T14:23:00Z",
+    "auditor": "0x5884d2b6844e8cB5fdA25C3d542CC3037AB0659c",
+    "kycLevelRequired": 3
+}

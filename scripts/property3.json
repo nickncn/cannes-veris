@@ -1,0 +1,30 @@
+{
+    "propertyName": "Sentosa Cove Villa",
+    "propertyLocation": "Ocean Drive, Sentosa Cove, Singapore",
+    "description": "Modern seafront villa with private dock, pool, and direct access to Singapore's most prestigious enclave.",
+    "features": [
+        "Private Dock",
+        "Seafront",
+        "Infinity Pool",
+        "Smart Security",
+        "Garden"
+    ],
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "squareFootage": 410,
+    "totalShares": 150,
+    "pricePerShare": 1,
+    "currency": "USDC",
+    "ownersCount": 1,
+    "legalDocsUrl": "https://www.notion.so/Sentosa-Cove-Villa-Legal-Disclosure-22084642a04980a4abefeaf5a96b92f1?source=copy_link",
+    "auditUrl": "https://www.notion.so/Audit-Report-Sentosa-Cove-Villa-22084642a04980b2b870ede16766fae5?source=copy_link",
+    "ownerName": "Sentosa Realty Pte Ltd",
+    "ownerWallet": "0xcE6d03F1bD5D6c1AD5CB1CA8F5000db6496e336A",
+    "managerName": "Singapore Prestige Realty",
+    "managerContact": "info@sprealty.sg",
+    "jurisdiction": "Singapore",
+    "issuer": "Sentosa Realty Pte Ltd",
+    "auditTimestamp": "2024-07-05T14:23:00Z",
+    "auditor": "0x5884d2b6844e8cB5fdA25C3d542CC3037AB0659c",
+    "kycLevelRequired": 2
+}

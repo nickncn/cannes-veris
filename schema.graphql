@@ -1,0 +1,40 @@
+type PropertyAsset @entity(immutable: false)  {
+  id: ID!                  # property contract address
+  contract: Bytes!
+  name: String
+  location: String
+  jurisdiction: String
+  issuer: String
+  totalShares: BigInt
+  image: String
+  latestMetadataCid: String
+  shares: [PropertyShare!]! @derivedFrom(field: "property")
+}
+
+type PropertyShare @entity(immutable: false)  {
+  id: ID!                  # contract address + tokenId (composite)
+  property: PropertyAsset!
+  tokenId: BigInt!
+  owner: Owner!
+  mintedAt: BigInt!
+  contract: Bytes!
+}
+
+type Owner @entity(immutable: false)  {
+  id: ID!                  # wallet address
+  shares: [PropertyShare!]! @derivedFrom(field: "owner")
+}
+
+type Purchase @entity(immutable: true) {
+  id: ID!
+  buyer: Owner!
+  share: PropertyShare!
+  timestamp: BigInt!
+  contract: Bytes!
+}
+
+type MetadataCID @entity(immutable: false) {
+  id: ID!                  # contract address
+  cid: String!
+  updatedAt: BigInt!
+}

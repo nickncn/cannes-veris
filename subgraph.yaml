@@ -1,0 +1,180 @@
+specVersion: 0.0.4
+description: Cannes Property Explorer Subgraph
+repository: https://github.com/your-org/your-repo
+schema:
+  file: ./schema.graphql
+
+dataSources:
+  - kind: ethereum/contract
+    name: PropertyToken1
+    network: polygon-amoy
+    source:
+      address: "0x1DF87Ad00f2B46925a0017abC720C129d94CE9A7"
+      abi: PropertyToken
+      startBlock: 23561846
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: typescript
+      entities:
+      - PropertyAsset
+      - PropertyShare
+      - Owner
+      - Purchase
+      - MetadataCID
+      abis:
+        - name: PropertyToken
+          file: ./abis/PropertyToken.json
+      eventHandlers:
+        - event: PropertyRegistered(indexed address,string,string,string,string,uint256,string,string)
+          handler: handlePropertyRegistered
+        - event: MetadataUpdated(string,uint256)
+          handler: handleMetadataUpdated
+        - event: Purchase(indexed address,uint256)
+          handler: handlePurchase
+      file: ./src/propertyToken.ts
+
+  - kind: ethereum/contract
+    name: PropertyToken2
+    network: polygon-amoy
+    source:
+      address: "0x56eA33C2c53c0A7558209e34c8A4c36a0c40B4E2"
+      abi: PropertyToken
+      startBlock: 23538168
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: typescript
+      entities:
+      - PropertyAsset
+      - PropertyShare
+      - Owner
+      - Purchase
+      - MetadataCID
+      abis:
+        - name: PropertyToken
+          file: ./abis/PropertyToken.json
+      eventHandlers:
+        - event: PropertyRegistered(indexed address,string,string,string,string,uint256,string,string)
+          handler: handlePropertyRegistered
+        - event: MetadataUpdated(string,uint256)
+          handler: handleMetadataUpdated
+        - event: Purchase(indexed address,uint256)
+          handler: handlePurchase
+      file: ./src/propertyToken.ts
+
+  - kind: ethereum/contract
+    name: PropertyToken3
+    network: polygon-amoy
+    source:
+      address: "0x6795ec3AAF960fFB4D7e9411bec9c799f971Cc9D"
+      abi: PropertyToken
+      startBlock: 23538171
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: typescript
+      entities:
+      - PropertyAsset
+      - PropertyShare
+      - Owner
+      - Purchase
+      - MetadataCID
+      abis:
+        - name: PropertyToken
+          file: ./abis/PropertyToken.json
+      eventHandlers:
+        - event: PropertyRegistered(indexed address,string,string,string,string,uint256,string,string)
+          handler: handlePropertyRegistered
+        - event: MetadataUpdated(string,uint256)
+          handler: handleMetadataUpdated
+        - event: Purchase(indexed address,uint256)
+          handler: handlePurchase
+      file: ./src/propertyToken.ts
+
+  - kind: ethereum/contract
+    name: PropertyToken4
+    network: polygon-amoy
+    source:
+      address: "0xC6b32B271bf43f7Ad17929e697b21CFD5f06ef95"
+      abi: PropertyToken
+      startBlock: 23538174
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: typescript
+      entities:
+      - PropertyAsset
+      - PropertyShare
+      - Owner
+      - Purchase
+      - MetadataCID
+      abis:
+        - name: PropertyToken
+          file: ./abis/PropertyToken.json
+      eventHandlers:
+        - event: PropertyRegistered(indexed address,string,string,string,string,uint256,string,string)
+          handler: handlePropertyRegistered
+        - event: MetadataUpdated(string,uint256)
+          handler: handleMetadataUpdated
+        - event: Purchase(indexed address,uint256)
+          handler: handlePurchase
+      file: ./src/propertyToken.ts
+
+  - kind: ethereum/contract
+    name: PropertyToken5
+    network: polygon-amoy
+    source:
+      address: "0x6A9EECDd9D38D7bb139BD84F69Bc53b8e88585B5"
+      abi: PropertyToken
+      startBlock: 23538176
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: typescript
+      entities:
+      - PropertyAsset
+      - PropertyShare
+      - Owner
+      - Purchase
+      - MetadataCID
+      abis:
+        - name: PropertyToken
+          file: ./abis/PropertyToken.json
+      eventHandlers:
+        - event: PropertyRegistered(indexed address,string,string,string,string,uint256,string,string)
+          handler: handlePropertyRegistered
+        - event: MetadataUpdated(string,uint256)
+          handler: handleMetadataUpdated
+        - event: Purchase(indexed address,uint256)
+          handler: handlePurchase
+      file: ./src/propertyToken.ts
+
+  - kind: ethereum/contract
+    name: PropertyToken6
+    network: polygon-amoy
+    source:
+      address: "0xF13614d1bd1f846d8696124282FfC4b35c00a019"
+      abi: PropertyToken
+      startBlock:	23538179
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: typescript
+      entities:
+      - PropertyAsset
+      - PropertyShare
+      - Owner
+      - Purchase
+      - MetadataCID
+      abis:
+        - name: PropertyToken
+          file: ./abis/PropertyToken.json
+      eventHandlers:
+        - event: PropertyRegistered(indexed address,string,string,string,string,uint256,string,string)
+          handler: handlePropertyRegistered
+        - event: MetadataUpdated(string,uint256)
+          handler: handleMetadataUpdated
+        - event: Purchase(indexed address,uint256)
+          handler: handlePurchase
+      file: ./src/propertyToken.ts

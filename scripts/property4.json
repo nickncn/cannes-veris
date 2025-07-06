@@ -1,0 +1,30 @@
+{
+    "propertyName": "The Ritz-Carlton Residences, Miami Beach",
+    "propertyLocation": "4701 Meridian Ave, Miami Beach, FL, USA",
+    "description": "Elegant waterfront residence in Miami’s most luxurious serviced property. Full amenities, marina, and resort lifestyle.",
+    "features": [
+        "Waterfront",
+        "Marina Access",
+        "Hotel Services",
+        "Pool",
+        "Gym"
+    ],
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 230,
+    "totalShares": 120,
+    "pricePerShare": 1,
+    "currency": "USDC",
+    "ownersCount": 1,
+    "legalDocsUrl": "https://www.notion.so/The-Ritz-Carlton-Residences-Legal-Disclosure-22084642a04980069357ce2231da484a?source=copy_link",
+    "auditUrl": "https://www.notion.so/Audit-Report-Ritz-Carlton-Residences-Miami-Beach-22084642a04980b99c80e3a889ad6843?source=copy_link",
+    "ownerName": "RC Miami Ltd",
+    "ownerWallet": "0xcE6d03F1bD5D6c1AD5CB1CA8F5000db6496e336A",
+    "managerName": "RC Residences Miami Manager",
+    "managerContact": "contact@rcrmb.com",
+    "jurisdiction": "USA",
+    "issuer": "RC Miami Ltd",
+    "auditTimestamp": "2024-07-05T14:23:00Z",
+    "auditor": "0x5884d2b6844e8cB5fdA25C3d542CC3037AB0659c",
+    "kycLevelRequired": 2
+}

@@ -1,0 +1,30 @@
+{
+    "propertyName": "Amalfi Coast Cliff House",
+    "propertyLocation": "Via Cristoforo Colombo, Positano, Italy",
+    "description": "Dramatic cliffside villa with breathtaking Mediterranean views, infinity pool, and private garden.",
+    "features": [
+        "Sea View",
+        "Infinity Pool",
+        "Terrace",
+        "Private Garden",
+        "Historic Charm"
+    ],
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "squareFootage": 320,
+    "totalShares": 80,
+    "pricePerShare": 1,
+    "currency": "USDC",
+    "ownersCount": 1,
+    "legalDocsUrl": "https://www.notion.so/Amalfi-Coast-Cliff-House-Legal-Disclosure-22084642a04980e4bb33fd73078eb98e?source=copy_link",
+    "auditUrl": "https://www.notion.so/Audit-Report-Amalfi-Coast-Cliff-House-22084642a049800c9658dfa08451efe7?source=copy_link",
+    "ownerName": "Amalfi Coast Estates",
+    "ownerWallet": "0xcE6d03F1bD5D6c1AD5CB1CA8F5000db6496e336A",
+    "managerName": "Italy Dream Homes",
+    "managerContact": "contact@italydreamhomes.it",
+    "jurisdiction": "Italy",
+    "issuer": "Amalfi Coast Estates",
+    "auditTimestamp": "2024-06-29T14:24:00Z",
+    "auditor": "0x5884d2b6844e8cB5fdA25C3d542CC3037AB0659c",
+    "kycLevelRequired": 2
+}

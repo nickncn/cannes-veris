@@ -1,0 +1,30 @@
+{
+    "propertyName": "Seaside Loft, Nice",
+    "propertyLocation": "Promenade des Anglais, Nice, France",
+    "description": "Luxury loft with panoramic Mediterranean views, fully automated smart amenities. The ultimate French Riviera living.",
+    "features": [
+        "Sea View",
+        "Balcony",
+        "Smart Home",
+        "Modern Kitchen",
+        "Concierge"
+    ],
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 95,
+    "totalShares": 100,
+    "pricePerShare": 1,
+    "currency": "USDC",
+    "ownersCount": 1,
+    "legalDocsUrl": "https://www.notion.so/Seaside-Loft-Nice-Legal-Disclosure-22084642a049806ca130fef7929db890?source=copy_link",
+    "auditUrl": "https://www.notion.so/Audit-Report-Seaside-Loft-Nice-22084642a04980809a06f279d54d1a9a?source=copy_link",
+    "ownerName": "Alice",
+    "ownerWallet": "0xcE6d03F1bD5D6c1AD5CB1CA8F5000db6496e336A",
+    "managerName": "Cannes Veris Management",
+    "managerContact": "contact@cannesveris.com",
+    "jurisdiction": "France",
+    "issuer": "Seaside Real Estate Ltd",
+    "auditTimestamp": "2024-07-05T14:23:00Z",
+    "auditor": "0x5884d2b6844e8cB5fdA25C3d542CC3037AB0659c",
+    "kycLevelRequired": 2
+}

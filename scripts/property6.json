@@ -1,0 +1,30 @@
+{
+    "propertyName": "Shibuya Sky Tower Residence",
+    "propertyLocation": "Shibuya, Tokyo, Japan",
+    "description": "Luxury tower residence in central Tokyo with skyline views, smart home integration, and direct metro access.",
+    "features": [
+        "City View",
+        "High Floor",
+        "Gym",
+        "Smart Home",
+        "Direct Metro Access"
+    ],
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 110,
+    "totalShares": 140,
+    "pricePerShare": 1,
+    "currency": "USDC",
+    "ownersCount": 1,
+    "legalDocsUrl": "https://www.notion.so/Shibuya-Sky-Tower-Residence-Legal-Disclosure-22084642a04980059f16e9456365064b?source=copy_link",
+    "auditUrl": "https://www.notion.so/Audit-Report-Shibuya-Sky-Tower-Residence-22084642a049805aae71c803e2c53e0e?source=copy_link",
+    "ownerName": "Tokyo Residence Partners",
+    "ownerWallet": "0xcE6d03F1bD5D6c1AD5CB1CA8F5000db6496e336A",
+    "managerName": "Tokyo Towers Management",
+    "managerContact": "hello@tokyotowers.jp",
+    "jurisdiction": "Japan",
+    "issuer": "Tokyo Residence Partners",
+    "auditTimestamp": "2024-07-05T14:25:00Z",
+    "auditor": "0x5884d2b6844e8cB5fdA25C3d542CC3037AB0659c",
+    "kycLevelRequired": 2
+}
